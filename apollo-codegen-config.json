@@ -1,0 +1,29 @@
+{
+  "schemaName" : "ApolloQueries",
+  "input" : {
+    "operationSearchPaths" : [
+      "**/*.graphql"
+    ],
+    "schemaSearchPaths" : [
+      "**/*.graphqls"
+    ]
+  },
+  "output" : {
+    "testMocks" : {
+      "none" : {
+      }
+    },
+    "schemaTypes" : {
+      "path" : "./ApolloQueries",
+      "moduleType" : {
+        "embeddedInTarget" : {
+          "name" : "GraphQLSample"
+        }
+      }
+    },
+    "operations" : {
+      "inSchemaModule" : {
+      }
+    }
+  }
+}

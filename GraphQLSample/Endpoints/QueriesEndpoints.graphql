@@ -1,0 +1,12 @@
+query Licences {
+  licenses {
+    body
+    id
+  }
+}
+
+query ViewerBio {
+  viewer {
+    bio
+  }
+}
